@@ -1,0 +1,167 @@
+h1 {
+  /*font-family: Impact*/
+}
+h2 {
+  position: relative;
+  text-align: center;
+}
+
+h2 span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+h2:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+
+h2:before {
+  left: 0;
+}
+
+/*center align*/
+.center {
+  text-align: center;
+}
+
+/*style for project*/
+.project {
+  /*border-style: dotted;
+  border-color: gray;*/
+  background-color:#ededed;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.container {
+  font-family: Arial;
+  font-size: 18px;
+  text-align: justify;
+  color: #343434;
+}
+
+
+#content {
+    width: 100%;
+    margin: 0 auto;
+}
+.portfoliocontainer {
+  /*width:100%;*/
+  margin-top: 40px;
+  /*margin-left:20%;
+  margin-right:20%;*/
+}
+
+.workcontainer {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  box-shadow: 3px 5px 16px 0px #d0d0d0;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+/*hover overlay effec, text caption*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #7d2a27;
+}
+
+.workcontainer:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*nav bar*/
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color:white!important;
+}
+
+.bg-light {
+    background-color: #1c263a!important;
+}
+
+.center {
+  text-align: center;
+}
+
+.publication {
+  margin-top: 40px;
+  background-color: #eeeeee;
+  padding: 80px;
+  color: #414141;
+}
+
+.role {
+  font-size: 14px;
+  line-height: 10px;
+  /*color: gray;*/
+}
+.verticalLine {
+  border-left: thick solid #004d45;
+  height: 120px;
+  border-width: 3px;
+}
+.footer {
+    font-size: 13px;
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    text-align: center;
+    margin-top: 40px;
+}
+h4 {
+  font-family:'Montserrat', sans-serif;
+}
+
+h2, h4 {
+  margin-bottom: 30px;
+}
+
+.learn-more-btn {
+  border-color:white;
+  /*text-decoration: underline;*/
+  position: absolute;
+  bottom: 0;
+  /*right:1;*/
+  right: 15px;
+
+}
