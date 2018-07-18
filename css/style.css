@@ -1,3 +1,4 @@
+
 h1 {
   /*font-family: Impact*/
 }
@@ -84,7 +85,7 @@ h2:before {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #7d2a27;
+  background-color: #009087;
 }
 
 .workcontainer:hover .overlay {
@@ -106,7 +107,9 @@ h2:before {
 /*nav bar*/
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: #474747;
+  font-family: "Abel",sans-serif;
+  font-size: 20px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
@@ -114,7 +117,7 @@ h2:before {
 }
 
 .bg-light {
-    background-color: #1c263a!important;
+    /*background-color: #1c263a!important;*/
 }
 
 .center {
@@ -157,11 +160,36 @@ h2, h4 {
 }
 
 .learn-more-btn {
-  border-color:white;
-  /*text-decoration: underline;*/
+  /*border-color:white;
+  text-decoration: underline;
   position: absolute;
   bottom: 0;
-  /*right:1;*/
-  right: 15px;
+  right: 15px;*/
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffcd07;
+  color: #13284b;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  display: none;
 
+}
+.learn-more-btn:hover {
+  background-color: #ffaa07;
+}
+
+.workcontainer:hover .learn-more-btn{
+  display: block;
+}
+
+/*ssss*/
+.modal-dialog .modal-content {
+  overflow-y:scroll;
 }
